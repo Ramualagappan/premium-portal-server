@@ -1,0 +1,11 @@
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.Premium.Repository\bin\Debug\netcoreapp3.1\Portal.Premium.Repository.deps.json
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.Premium.Repository\bin\Debug\netcoreapp3.1\Portal.Premium.Repository.runtimeconfig.json
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.Premium.Repository\bin\Debug\netcoreapp3.1\Portal.Premium.Repository.runtimeconfig.dev.json
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.Premium.Repository\bin\Debug\netcoreapp3.1\Portal.Premium.Repository.dll
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.Premium.Repository\bin\Debug\netcoreapp3.1\Portal.Premium.Repository.pdb
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.Premium.Repository\obj\Debug\netcoreapp3.1\Portal.Premium.Repository.AssemblyInfoInputs.cache
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.Premium.Repository\obj\Debug\netcoreapp3.1\Portal.Premium.Repository.AssemblyInfo.cs
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.Premium.Repository\obj\Debug\netcoreapp3.1\Portal.Premium.Repository.csproj.CoreCompileInputs.cache
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.Premium.Repository\obj\Debug\netcoreapp3.1\Portal.Premium.Repository.dll
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.Premium.Repository\obj\Debug\netcoreapp3.1\Portal.Premium.Repository.pdb
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.Premium.Repository\obj\Debug\netcoreapp3.1\Portal.Premium.Repository.genruntimeconfig.cache

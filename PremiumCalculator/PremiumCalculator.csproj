@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Portal.Premium.Repository\Portal.Premium.Repository.csproj" />
+    <ProjectReference Include="..\Portal.services\Portal.services.csproj" />
+    <ProjectReference Include="..\PremiumCalculator.Repository\Portal.Model.csproj" />
+  </ItemGroup>
+
+
+</Project>

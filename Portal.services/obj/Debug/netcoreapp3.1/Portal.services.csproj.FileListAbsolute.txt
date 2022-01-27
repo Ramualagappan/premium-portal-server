@@ -1,0 +1,12 @@
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.services\bin\Debug\netcoreapp3.1\Portal.services.deps.json
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.services\bin\Debug\netcoreapp3.1\Portal.services.dll
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.services\bin\Debug\netcoreapp3.1\Portal.services.pdb
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.services\bin\Debug\netcoreapp3.1\Portal.Model.dll
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.services\bin\Debug\netcoreapp3.1\Portal.Model.pdb
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.services\obj\Debug\netcoreapp3.1\Portal.services.csprojAssemblyReference.cache
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.services\obj\Debug\netcoreapp3.1\Portal.services.AssemblyInfoInputs.cache
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.services\obj\Debug\netcoreapp3.1\Portal.services.AssemblyInfo.cs
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.services\obj\Debug\netcoreapp3.1\Portal.services.csproj.CoreCompileInputs.cache
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.services\obj\Debug\netcoreapp3.1\Portal.services.csproj.CopyComplete
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.services\obj\Debug\netcoreapp3.1\Portal.services.dll
+C:\Users\ramua\source\repos\PremiumCalculator\Portal.services\obj\Debug\netcoreapp3.1\Portal.services.pdb

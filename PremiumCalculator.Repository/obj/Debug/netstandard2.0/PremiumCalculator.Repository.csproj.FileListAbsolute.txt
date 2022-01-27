@@ -1,0 +1,5 @@
+C:\Users\ramua\source\repos\PremiumCalculator\PremiumCalculator.Repository\bin\Debug\netstandard2.0\PremiumCalculator.Repository.deps.json
+C:\Users\ramua\source\repos\PremiumCalculator\PremiumCalculator.Repository\bin\Debug\netstandard2.0\PremiumCalculator.Repository.dll
+C:\Users\ramua\source\repos\PremiumCalculator\PremiumCalculator.Repository\obj\Debug\netstandard2.0\PremiumCalculator.Repository.csprojAssemblyReference.cache
+C:\Users\ramua\source\repos\PremiumCalculator\PremiumCalculator.Repository\obj\Debug\netstandard2.0\PremiumCalculator.Repository.AssemblyInfoInputs.cache
+C:\Users\ramua\source\repos\PremiumCalculator\PremiumCalculator.Repository\obj\Debug\netstandard2.0\PremiumCalculator.Repository.AssemblyInfo.cs
