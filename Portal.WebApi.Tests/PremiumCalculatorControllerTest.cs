@@ -17,7 +17,7 @@ namespace Portal.WebApi.Tests
         [SetUp]
         public void Setup()
         {
-           // ILogger<PremiumCalculatorController> logger;
+            // ILogger<PremiumCalculatorController> logger;
             //_portalServices = new Mock<IPortalServices>(MockBehavior.Default);
             //_premiumCalculatorController = new PremiumCalculatorController(_portalServices.Object);
         }
@@ -33,7 +33,7 @@ namespace Portal.WebApi.Tests
             userDetails.Occupation = "Professional";
 
             PortalServices portalServices = new PortalServices();
-            var totalPremium=portalServices.CalculatePremium(userDetails);
+            var totalPremium = portalServices.CalculatePremium(userDetails);
 
             Assert.Equals(totalPremium, 1920);
         }
