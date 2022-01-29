@@ -6,7 +6,7 @@ namespace Portal.Model
 {
     public class OccupationRating
     {
-        public string Factor { get; set; }
+        public double Factor { get; set; }
         public string Rating { get; set; }
     }
 }

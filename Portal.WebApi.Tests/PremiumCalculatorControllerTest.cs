@@ -35,7 +35,27 @@ namespace Portal.WebApi.Tests
             PortalServices portalServices = new PortalServices();
             var totalPremium = portalServices.CalculatePremium(userDetails);
 
-            Assert.Equals(totalPremium, 1920);
+            Assert.AreEqual(totalPremium, 1920);
+        }
+
+        [Test]
+        public void GetOccupationDetails()
+        {
+             
+            PortalServices portalServices = new PortalServices();
+            var lstOccupationDetail = portalServices.GetOccupationDetails();
+
+            Assert.IsTrue(lstOccupationDetail.Result.Count > 0, "The actual count was greater than zero");
+        }
+
+        [Test]
+        public void GetOccupationRatingDetails()
+        {
+
+            PortalServices portalServices = new PortalServices();
+            var lstOccupationRatingDetail = portalServices.GetOccupationRatingDetails();
+
+            Assert.IsTrue(lstOccupationRatingDetail.Result.Count > 0, "The actual count was greater than zero");
         }
     }
 }

@@ -23,16 +23,24 @@ namespace Portal.services
             return await Task.FromResult(Occupation);
         }
 
-        public decimal CalculatePremium(UserDetails userDetails)
+
+        public async Task<IList<OccupationRating>> GetOccupationRatingDetails()
         {
-            var OccupationRating = new Dictionary<string, double>(){
-                {"Professional", 1.0},
-                {"White Collar", 1.25},
-                {"Light Manual", 1.50},
-                {"Heavy Manual", 1.75},
+            List<OccupationRating> lstOccupationRating = new List<OccupationRating>(){
+               new OccupationRating { Rating= "Professional", Factor= 1.0},
+                new OccupationRating { Rating = "White Collar", Factor = 1.25 },
+                new OccupationRating { Rating = "Light Manual", Factor = 1.50 },
+                new OccupationRating { Rating = "Heavy Manual", Factor = 1.75 },
             };
 
-            double rating = OccupationRating.Where(p => p.Key == userDetails.Occupation).FirstOrDefault().Value;
+            return await Task.FromResult(lstOccupationRating);
+        }
+
+        public decimal CalculatePremium(UserDetails userDetails)
+        {
+            var lstOccupationRating = GetOccupationRatingDetails();
+
+            double rating = lstOccupationRating.Result.Where(p => p.Rating == userDetails.Occupation).FirstOrDefault().Factor;
 
             //Death Premium = (Death Cover amount *Occupation Rating Factor *Age) / 1000 * 12
 
