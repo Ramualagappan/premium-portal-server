@@ -1,23 +1,18 @@
-using Microsoft.Extensions.Logging;
 using Moq;
 using NUnit.Framework;
 using Portal.Model;
 using Portal.services;
-using PremiumCalculator.Controllers;
-using System;
-using System.Web.Http.Results;
+using System; 
 
 namespace Portal.WebApi.Tests
 {
     public class PremiumCalculatorControllerTest
     {
-        //private Mock<IPortalServices> _portalServices;
-        //private PremiumCalculatorController _premiumCalculatorController;
+        //private Mock<IPortalServices> _portalServices; 
 
         [SetUp]
         public void Setup()
-        {
-            // ILogger<PremiumCalculatorController> logger;
+        { 
             //_portalServices = new Mock<IPortalServices>(MockBehavior.Default);
             //_premiumCalculatorController = new PremiumCalculatorController(_portalServices.Object);
         }
@@ -56,20 +51,16 @@ namespace Portal.WebApi.Tests
         [Test]
         public void GetOccupationDetails()
         {
-             
             PortalServices portalServices = new PortalServices();
             var lstOccupationDetail = portalServices.GetOccupationDetails();
-
             Assert.IsTrue(lstOccupationDetail.Result.Count > 0, "The actual count was greater than zero");
         }
 
         [Test]
         public void GetOccupationRatingDetails()
         {
-
             PortalServices portalServices = new PortalServices();
             var lstOccupationRatingDetail = portalServices.GetOccupationRatingDetails();
-
             Assert.IsTrue(lstOccupationRatingDetail.Result.Count > 0, "The actual count was greater than zero");
         }
     }
