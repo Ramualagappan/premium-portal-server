@@ -37,7 +37,7 @@ namespace Portal.WebApi.Tests
 
             Assert.AreEqual(totalPremium, 1920);
         }
-
+        [Test]
         public void CalculatePremium_Negative()
         {
             UserDetails userDetails = new UserDetails();
