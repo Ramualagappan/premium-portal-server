@@ -23,7 +23,7 @@ namespace Portal.WebApi.Tests
         }
 
         [Test]
-        public void CalculatePremium()
+        public void CalculatePremium_Positive()
         {
             UserDetails userDetails = new UserDetails();
             userDetails.Age = 32;
@@ -36,6 +36,21 @@ namespace Portal.WebApi.Tests
             var totalPremium = portalServices.CalculatePremium(userDetails);
 
             Assert.AreEqual(totalPremium, 1920);
+        }
+
+        public void CalculatePremium_Negative()
+        {
+            UserDetails userDetails = new UserDetails();
+            userDetails.Age = 32;
+            userDetails.Deathsuminsured = 5000;
+            userDetails.Name = "Test Users";
+            userDetails.DOB = DateTime.Now.AddYears(-32);
+            userDetails.Occupation = "Professional";
+
+            PortalServices portalServices = new PortalServices();
+            var totalPremium = portalServices.CalculatePremium(userDetails);
+
+            Assert.AreNotEqual(totalPremium, 1921);
         }
 
         [Test]
