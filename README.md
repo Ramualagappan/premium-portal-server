@@ -12,7 +12,29 @@ Swagger screenshot
 
 Unit test case results:
 
-![image](https://user-images.githubusercontent.com/4916304/151703432-20c2570c-2cd2-46b0-9620-23cc45a35bd1.png)
+![image](https://user-images.githubusercontent.com/4916304/152348589-b1334613-e25e-49a5-bfdd-7e258b48fb2d.png)
+
+
+Create LocalDB name PremiumCalculator
+
+syntax: SqlLocalDB create PremiumCalculator
+
+Created table with Entity relationship. 
+
+![image](https://user-images.githubusercontent.com/4916304/152349122-2a61e930-611c-4b83-a9da-4201ce06c36a.png)
+
+Execute update-database in repository project 
+
+Execute insert script from Script folder in repository project
+
+OccupationRating table after inserting data
+![image](https://user-images.githubusercontent.com/4916304/152349990-972e9189-7bf5-4f8b-94bc-bb0758b8d420.png)
+
+Occupation table after inserting data
+![image](https://user-images.githubusercontent.com/4916304/152350064-2d0c5c33-5e85-4ff0-815b-9820eac26efb.png)
+
+CalculatePremium web api method call service using dependency injection, from service using Dbcontext include reference table and fetch data based on selected Occupation corresponding Rating id. Factor will be returned. After getting factor value perform calculation logic using formula and return monthly premium value to front end.
+
 
 
 
