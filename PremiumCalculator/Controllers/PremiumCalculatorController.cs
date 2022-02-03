@@ -24,7 +24,11 @@ namespace PremiumCalculator.Controllers
         {
             return _portalServices.GetOccupationDetails().Result;
         }
-
+        /// <summary>
+        /// Post method to Calculate Monthly Premium using formula & respective Factor
+        /// </summary>
+        /// <param name="userDetails"></param>
+        /// <returns></returns>
         [HttpPost]
         public decimal Post([FromBody] UserDetails userDetails)
         {

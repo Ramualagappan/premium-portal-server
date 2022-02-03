@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Portal.EntityModel;
 
-namespace Portal.EntityModel
+namespace Portal.Model
 {
     public class OccupationRating
     {

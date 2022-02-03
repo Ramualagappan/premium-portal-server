@@ -10,7 +10,7 @@ namespace Portal.services
     {
 
         Task<IList<OccupationDetails>> GetOccupationDetails();
-        Task<IList<OccupationRating>> GetOccupationRatingDetails();
+        Task<IList<OccupationViewModel>> GetOccupationRatingDetails();
         decimal CalculatePremium(UserDetails userDetails);
     }
 }

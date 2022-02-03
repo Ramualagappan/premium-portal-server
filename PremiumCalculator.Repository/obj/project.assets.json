@@ -186,9 +186,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\premium-portal-server\\premium-portal-server\\PremiumCalculator.Repository\\Portal.Model.csproj",
-      "projectName": "Portal.Model",
-      "projectPath": "D:\\Projects\\premium-portal-server\\premium-portal-server\\PremiumCalculator.Repository\\Portal.Model.csproj",
+      "projectUniqueName": "D:\\Projects\\premium-portal-server\\premium-portal-server\\PremiumCalculator.Repository\\Portal.EntityModel.csproj",
+      "projectName": "Portal.EntityModel",
+      "projectPath": "D:\\Projects\\premium-portal-server\\premium-portal-server\\PremiumCalculator.Repository\\Portal.EntityModel.csproj",
       "packagesPath": "C:\\Users\\ramua\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\premium-portal-server\\premium-portal-server\\PremiumCalculator.Repository\\obj\\",
       "projectStyle": "PackageReference",

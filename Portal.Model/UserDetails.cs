@@ -8,7 +8,7 @@ namespace Portal.Model
     {
         public string Name { get; set; }
         public int Age { get; set; }
-        public string Occupation { get; set; }
+        public int OccupationRating { get; set; }
         public int Deathsuminsured { get; set; }
         public DateTime DOB { get; set; }
     }

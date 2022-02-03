@@ -7,3 +7,12 @@ C:\Users\ramua\source\repos\PremiumCalculator\PremiumCalculator.Repository\obj\D
 C:\Users\ramua\source\repos\PremiumCalculator\PremiumCalculator.Repository\obj\Debug\netstandard2.0\Portal.Model.dll
 C:\Users\ramua\source\repos\PremiumCalculator\PremiumCalculator.Repository\obj\Debug\netstandard2.0\Portal.Model.pdb
 C:\Users\ramua\source\repos\PremiumCalculator\PremiumCalculator.Repository\obj\Debug\netstandard2.0\Portal.Model.csprojAssemblyReference.cache
+D:\Projects\premium-portal-server\premium-portal-server\PremiumCalculator.Repository\bin\Debug\netstandard2.0\Portal.Model.deps.json
+D:\Projects\premium-portal-server\premium-portal-server\PremiumCalculator.Repository\bin\Debug\netstandard2.0\Portal.Model.dll
+D:\Projects\premium-portal-server\premium-portal-server\PremiumCalculator.Repository\bin\Debug\netstandard2.0\Portal.Model.pdb
+D:\Projects\premium-portal-server\premium-portal-server\PremiumCalculator.Repository\obj\Debug\netstandard2.0\Portal.Model.AssemblyInfoInputs.cache
+D:\Projects\premium-portal-server\premium-portal-server\PremiumCalculator.Repository\obj\Debug\netstandard2.0\Portal.Model.AssemblyInfo.cs
+D:\Projects\premium-portal-server\premium-portal-server\PremiumCalculator.Repository\obj\Debug\netstandard2.0\Portal.Model.csproj.CoreCompileInputs.cache
+D:\Projects\premium-portal-server\premium-portal-server\PremiumCalculator.Repository\obj\Debug\netstandard2.0\Portal.Model.dll
+D:\Projects\premium-portal-server\premium-portal-server\PremiumCalculator.Repository\obj\Debug\netstandard2.0\Portal.Model.pdb
+D:\Projects\premium-portal-server\premium-portal-server\PremiumCalculator.Repository\obj\Debug\netstandard2.0\Portal.Model.csprojAssemblyReference.cache
