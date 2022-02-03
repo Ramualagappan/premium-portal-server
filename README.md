@@ -19,6 +19,8 @@ Create LocalDB name PremiumCalculator
 
 syntax: SqlLocalDB create PremiumCalculator
 
+Performed Code First approach to create below 2 tables & references
+
 Created table with Entity relationship. 
 
 ![image](https://user-images.githubusercontent.com/4916304/152349122-2a61e930-611c-4b83-a9da-4201ce06c36a.png)
