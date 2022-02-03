@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portal.EntityModel", "Premi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portal.services", "Portal.services\Portal.services.csproj", "{99A5C991-9B63-48A4-9ACB-4397F04EACB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal.Model", "Portal.Model\Portal.Model.csproj", "{C615A4A3-905D-442A-BEB3-B90083FB6D2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Portal.Model", "Portal.Model\Portal.Model.csproj", "{C615A4A3-905D-442A-BEB3-B90083FB6D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Portal.WebApi.Test", "Portal.WebApi.Test\Portal.WebApi.Test.csproj", "{CA3575A9-99E6-4F2F-9CBB-50EAAA7F6B16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C615A4A3-905D-442A-BEB3-B90083FB6D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C615A4A3-905D-442A-BEB3-B90083FB6D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C615A4A3-905D-442A-BEB3-B90083FB6D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA3575A9-99E6-4F2F-9CBB-50EAAA7F6B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3575A9-99E6-4F2F-9CBB-50EAAA7F6B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA3575A9-99E6-4F2F-9CBB-50EAAA7F6B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3575A9-99E6-4F2F-9CBB-50EAAA7F6B16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
